@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .score {
+    text-align: right;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .background {   
+    background: linear-gradient(
+      rgba( 129, 0, 0, 0.45),
+      rgba(126, 0, 0, 0.45)),
+      url("https://nerdist.com/wp-content/uploads/2018/05/maxresdefault-1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+  }
+  
+  .js-homepage {
+    color: white;
+    text-align: center;
+    padding-top: 30%;
+    font-family: 'Francois One', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    vertical-align: center;
+  }
+  
+  .js-homepage p {
+    font-size: 18px;
+  }
+  
+  .questionText {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.55rem;
+  }
+  
+  .answerText {
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  #quiz-form {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  
+  #quiz-form input {
+    margin: 8px; 
+  }
+  
+  #submit {
+    margin: 10px 0;
+  }
+  
+  .hide {
+    visibility: hidden;
+  }
+  
+  .shiny_pin {  
+    padding-top: 20px; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .shiny_pin img {
+    border-radius: 50%;
+  }
+  
+  button {
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #2FD5FF;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .results-page {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Francois One', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    vertical-align: center;
+  }
+  
+  @media only screen and (max-width: 480px) {
+      .background {
+        background: linear-gradient(
+        rgba( 129, 0, 0, 0.45),
+        rgba(126, 0, 0, 0.45)),
+        url("http://i.imgur.com/MQVxKSD.jpg"); 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+        }
+  
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .js-homepage {
+      padding-top: 20%;
+    }
+  }
+  
+  
+  
